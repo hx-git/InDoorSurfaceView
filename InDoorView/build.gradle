@@ -4,8 +4,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.karonl'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "26.0.0"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     lintOptions {
         abortOnError false
@@ -16,7 +16,7 @@ android {
     defaultConfig {
 
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 27
     }
     buildTypes {
         release {
